@@ -66,6 +66,8 @@ Dans thonny, quelques erreurs sortent lorsque j'ai utilisé certaine synthaxe qu
 # 5.Expression vs print
 On peut parfois être amenés à calculer des choses, concaténer des chaines, etc. sans forcément vouloir les print. Dnas un fichier .py, seul le print serait imprimé. Parfois c'est nécessaire pour debugger ou informer l'utilisateur, parfois on ne veut pas forcément imprimer un résultat.
 
+Le `1+1` qui affiche le résultat n'arrive que dans la console en mode interactif. Dans un programme ce n'est jamais le cas.
+
 # 6.Premiers programmes python
 OK fait
 
