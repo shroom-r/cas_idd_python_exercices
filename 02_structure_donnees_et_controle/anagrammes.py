@@ -12,3 +12,4 @@ while len(inputWord)>0:
     inputWord = input("Entrez un mot : ").lower()
 else:
     print("Au revoir")
+
