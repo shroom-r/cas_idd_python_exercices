@@ -4,10 +4,17 @@ def mediane(*args):
     listLength = len(list)
     if listLength % 2 == 0:
         # Even
-        result = (list[int(listLength / 2)] + list[int(listLength / 2 - 1)]) / 2
+        # Ma solution :
+        # result = (list[int(listLength / 2)] + list[int(listLength / 2 - 1)]) / 2
+        # Solution corrigée :
+        result = list[(n - 1) // 2]
     else:
         # Odd
-        result = list[int((listLength - 1) / 2)]
+        # Ma solution :
+        # result = list[int((listLength - 1) / 2)]
+        # Solution corrigée :
+        half = n // 2
+        result = (list[half - 1] + list[half]) / 2
     return result
 
 listOfNumbers = []
