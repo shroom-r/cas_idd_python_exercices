@@ -20,7 +20,7 @@ def is_fibonacci(n):
     else:
         print(f"{n} n'est pas das la suite de Fibonacci")
 
-while val:=input("Entrez une valeur (vide pour quitter)"):
+while val:=input("Entrez une valeur (vide pour quitter) :"):
     if val == "":
         break
     try:
