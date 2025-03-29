@@ -29,7 +29,7 @@ class Person:
         self.surname = surname
 
     def __repr__(self):
-        return f"{name} {surname}"
+        return f"{self.name} {self.surname}"
     
 class Wizard(Person):
     def __repr__(self):
